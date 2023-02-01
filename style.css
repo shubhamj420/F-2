@@ -1,71 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: black;
-}
-
-.hide{
-    display: none;
-}
-.image-Gallery{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(195, 230, 230);
+.colm {
+  border: 3px solid rgb(0, 225, 255);
+  border-radius: 15px;
 
 }
-img{
-height: 300px;
-width: 300px;
-border: 20px solid rgb(202, 197, 197);
-box-shadow: 0px 1px 5px 9px rgba(0,0,0, 0.14);
-cursor: pointer;
 
+img {
+  cursor: pointer;
 }
-p{
-    margin-top: 30px;
-    color: rgb(13, 149, 149);
-    font-size: 40px;
-    font-weight: 900;
-    font-family: 'Gill Sans';
-    cursor: pointer;
-    
+
+.hide {
+  display: none;
 }
-.container{
-    width: 400px;
-    padding: 30px;
-    background-color: rgb(221, 214, 214);
-    margin: 30px auto;
-    border-radius: 15px;
-    border: 5px solid red;
-    text-align: center;
-    color: rgb(32, 30, 30);
+.error {
+  color: red;
 }
-label{
-    font-size: 20px;
-    font-weight: 700;
-    color: brown;
+
+.blue {
+  color: rgb(0, 132, 255);
 }
-input{
-    padding: 10px;
-    font-weight: 500;
-    background-color: rgb(65, 62, 62);
-    color: aqua;
-    margin-top: 5px;      
+.selected {
+  border: 5px solid rgb(0, 195, 255);
 }
-#submit{
-    border-radius: 15px;
-    width: 80px;
-}
-.error{
-    color: red;
-}
-.hide{
-    display: none;
+button{
+  width: 220px;
 }
